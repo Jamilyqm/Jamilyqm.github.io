@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+		integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
+	<title>Materia</title>
+
+	<link rel="stylesheet" href="Materia.css">
+
+</head>
+
+<body background="./imagens/fundo.jpg">
+
+	<!--Responsividade com todas as margens superiores com 4 unidades-->
+
+	<!--cabeçalho com Navbar responsivo contendo todos os links para as outras páginas-->
+	<nav class="navbar navbar-expand-lg navbar-light bg-dark" style="color: white;">
+		<div class="container">
+			<h1>JN</h1>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+				aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a id="menuLink" href="/trabalho4-bootstrap/Home.html" class="linkMenuTopo">Página Inicial<span
+								class="sr-only">(página atual)</span></a>
+					</li>
+
+					<li class="nav-item">
+						<a id="menuLink" href="/trabalho4-bootstrap/Biografia.html" class="linkMenuTopo">Christian
+							Dior</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Final do cabeçalho -->
+
+	<!-- Barra de menu -->
+	<div class="barmenu">
+		<a class="names" href="">FASHION</a>
+		<a class="names" href="">TENDÊNCIA</a>
+		<a class="names" href="">STYLE</a>
+		<a class="names" href="">BELEZA</a>
+		<a class="names" href="">CELEBS</a>
+		<a class="names" href="">MODA ANTIGA</a>
+	</div>
+
+	<div class="container mt-4">
+		<div class="materia">
+			<h2>Dior e Burberry se destacam no relátorio de outono-inverno
+				2023 na Launchmetrics</h2>
+
+			<p>Christian Dior, Burberry, Prada e Gucci proporcionaram os
+				momentos mais cativantes das passarelas dos últimos desfiles nas
+				quatro capitais da moda, segundo o novo relatório da Launchmetrics,
+				que avaliou o total de reproduções de cada desfile, o número de
+				downloads e o valor do impacto na mídia (MIV, por sua sigla em
+				inglês).</p>
+
+			<!-- Carrossel 1, sem duração especifica já que as fotos passam conforme ao ser clicado na seta-->
+			<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img class="d-block w-100" src="./imagens/imgMat.webp" alt="Primeiro Slide">
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-100" src="./imagens/diorUm.jpg" alt="Segundo Slide">
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-100" src="./imagens/diorDois.jpg" alt="Terceiro Slide">
+					</div>
+				</div>
+				<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Anterior</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Próximo</span>
+				</a>
+			</div>
+
+
+			<!-- Informações abaixo da imagem -->
+			<p id="desc">Christian Dior - Outono-Inverno 2023 - 2024 - Moda
+				Feminina - França - Paris - © ImaxTree</p>
+
+			<p id="des">Seus fotógrafos fizeram mais de 84.000 imagens em 675
+				desfiles e descobriram que Dior obteve o maior número de
+				visualizações (87.000). O restante do top 10 inclui Gucci na era
+				pós-Alessandro Michele, Burberry com Daniel Lee, Bottega Veneta,
+				Givenchy, Miu Miu, Chanel, Prada, Ferragamo e Balmain. A Dior também
+				liderou a lista em número de downloads, seguida por Burberry,
+				Ferragamo, Gucci, Givenchy, Prada, David Koma, Miu Miu, Diesel e
+				Fendi</p>
+
+			<p>Quanto ao MIV, esta mensuração diz respeito a posicionamentos
+				online e atribui um valor monetário a cada postagem, interação e
+				artigo, determinando quais estratégias geram o ROI mais alto. Nesta
+				lista, a Burberry ocupou a primeira posição, com 1,6 milhões de
+				dólares, seguida por Prada com 1,3 milhões, Gucci, Bottega Veneta e
+				Christian Dior com 1,1 milhões cada; enquanto Diesel, Fendi, Tory
+				Burch, Ferragamo e Dolce & Gabbana ficaram abaixo de 1 milhão.</p>
+
+			<!-- Carrossel 2, sem duração especifica já que as fotos passam conforme ao ser clicado na seta-->
+			<div id="carouselExampleControls1" class="carousel slides" data-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img class="d-block w-100" src="./imagens/burbeImg.webp" alt="Primeiro Slide">
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-100" src="./imagens/imgUm.jpg" alt="Segundo Slide">
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-100" src="./imagens/imgDois.jpg" alt="Terceiro Slide">
+					</div>
+				</div>
+				<a class="carousel-control-prev" href="#carouselExampleControls1" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Anterior</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleControls1" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Próximo</span>
+				</a>
+			</div>
+
+			<!-- Informações abaixo da imagem -->
+			<p id="discBurbe">Burberry - Outono-Inverno 2023 - 2024 - Moda
+				Feminina – Reino Unido - Londres - © ImaxTree</p>
+		</div>
+
+		<!-- Copy -->
+		<p id="copy">&copy; 2023 Jamily Quirino & Natalia Carvalho</p>
+
+		<!-- JavaScript (Opcional) -->
+		<!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+			crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+			integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+			crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+			integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+			crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,108 @@
+/* Cabeçalho, barra de menu e Copy estão especificadas na classe home, já que são iguais */
+body {
+	margin: 0% 15% 0% 15%;
+	font-family: 'Arial Narrow';
+}
+
+.he {
+	width: 100%;
+	background-color: black;
+	padding: 2px 0px 6px 0px;
+	margin: 0%;
+}
+
+#menu {
+	width: 30px;
+	margin-left: 10px;
+	margin-top: 2px;
+}
+
+#menuLink {
+	color: white;
+	margin: 0px 0px 0px 20px;
+}
+
+.names {
+	margin-left: 20px;
+	margin-right: 20px;
+	color: rgb(0, 0, 0);
+	font-size: 20px;
+}
+
+.linksMenuTopo {
+	text-decoration: none;
+}
+
+#menuLink:hover {
+	color: #696969;
+}
+
+a.names:link {
+	text-decoration: none;
+}
+
+a.names:hover {
+	color: #696969;
+}
+
+.barmenu {
+	text-align: center;
+	margin-top: 10px;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+/* alinhamento do texto;  espaçamento entre o elemento e o elemento abaixo dele*/
+.materia h2 {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-align: justify;
+	font-size: 30px;
+	margin-bottom: 10px;
+	margin-top: 8px;
+	text-transform: uppercase;
+}
+
+/*alinhamento do texto; espaçamento entre o parágrafo e o elemento abaixo e acima dele*/
+.materia p {
+	color: rgb(0, 0, 0);
+	text-align: justify;
+	font-size: 20px;
+	margin-bottom: 10px;
+	margin-top: 1%;
+	font-family: sans-serif;
+}
+
+/*elemento flutue para a direita; remoção de espaços extras acima do elemento; espaçamento abaixo do elemento*/
+#desc {
+	font-size: 15px;
+	float: right;
+	margin-top: 0%;
+	margin-bottom: 10px;
+}
+
+/*Informação abaixo da imagem*/
+/*espaçamento acima do elemento*/
+#des {
+	margin-top: 5%;
+}
+
+/*Informação abaixo da imagem*/
+/*flutua para a direita; remoção de espaços extras acima do elemento; espaçamento abaixo do elemento*/
+#discBurbe {
+	font-size: 15px;
+	float: right;
+	margin-top: 0%;
+	margin-bottom: 10px;
+}
+
+#copy {
+	text-align: center;
+	background-color: #000000;
+	color: white;
+	padding: 7px 0px 10px 0px;
+	text-transform: uppercase;
+	margin-bottom: -5px;
+	margin-top: 5%;
+}

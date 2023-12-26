@@ -1,0 +1,149 @@
+/* Cabeçalho, barra de menu e Copy estão especificadas na classe home, já que são iguais */
+body {
+	margin: 0% 15% 0% 15%;
+	font-family: 'Arial Narrow';
+}
+
+.he {
+	width: 100%;
+	background-color: black;
+	padding: 2px 0px 6px 0px;
+	margin: 0%;
+	margin-bottom: 2%;
+}
+
+#menu {
+	width: 30px;
+	margin-left: 10px;
+	margin-top: 2px;
+}
+
+#menuLink {
+	color: white;
+	margin: 0px 0px 0px 20px;
+}
+
+.names {
+	margin-left: 20px;
+	margin-right: 20px;
+	color: black;
+	font-size: 20px;
+}
+
+.linkMenuTopo {
+	text-decoration: none;
+}
+
+#menuLink:hover {
+	color: #696969;
+}
+
+/*tira o sublinhado do link */
+a.names:link {
+	text-decoration: none;
+}
+/* ao passar o mouse em cima do nome fica na cor escolhida */
+a.names:hover {
+	color: #696969;
+}
+
+.barmenu {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+/*Imagem*/
+/*flutua para a direita; remoção de espaços extras abaixo da imagem*/
+.imgPrinc {
+	width: 30%;
+	float: right;
+	margin-bottom: 0%;
+}
+
+/* borda inferior a imagem */
+.imgPrinc img {
+	width: 100%;
+	border-bottom: 1px solid black;
+}
+
+/*remoção de espaços extras acima do elemento; posição normal; elementos um do lado do outro*/
+.infor {
+	margin-top: 0%;
+	width: 67%;
+	position: relative;
+	display: inline-block;
+}
+
+/*Primmeiro parágrafo*/
+/*alinhamento do texto; remoção de epaços extras acima dos parágrafos; espaçamento entre as linhas do texto*/
+.infor p {
+	text-align: justify;
+	margin-top: 0%;
+	line-height: 165%;
+	font-size: 19px;
+}
+
+/*Títulos dos parágrafos*/
+/* remoção de espaços extras acima dos títulos; espaçamento abaixo dos títulos*/
+.infor h1 {
+	margin-top: 0%;
+	margin-bottom: 3px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* remoção de espaços extras acima dos títulos; espaçamento abaixo dos títulos*/
+.infor h2 {
+	margin-top: 0%;
+	margin-bottom: 3px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* remoção de espaços extras acima dos títulos; espaçamento abaixo dos títulos*/
+.infor h3 {
+	font-size: 25px;
+	font-family: monospace;
+	margin-bottom: 3px;
+	margin-top: 0%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Parágrafos*/
+/* alinhamento do texto*/
+.conteudo {
+	text-align: justify;
+	font-size: 20px;
+}
+
+/*Tabela*/
+/* elementos um do lado do outro; borda na tabela*/
+.disc {
+	width: 100%;
+	display: inline-block;
+	border: 1px solid black;
+}
+
+/* Cabeçalhos das colunas posicionados a esquerda*/
+.disc th {
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#copy {
+	text-align: center;
+	background-color: #000000;
+	color: white;
+	padding: 7px 0px 10px 0px;
+	text-transform: uppercase;
+	margin-bottom: -5px;
+	margin-top: 0%;
+}
+
+.disc p {
+	padding-left: 2%;
+	margin: 0%;
+}
